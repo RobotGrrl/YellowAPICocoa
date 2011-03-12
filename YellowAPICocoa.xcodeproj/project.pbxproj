@@ -18,6 +18,7 @@
 		B6BBEF93132BBA4D00DE486C /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BBEF8D132BBA4D00DE486C /* SBJsonParser.m */; };
 		B6BBEF94132BBA4D00DE486C /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BBEF8F132BBA4D00DE486C /* SBJsonWriter.m */; };
 		B6BBEF99132BBA5F00DE486C /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BBEF98132BBA5F00DE486C /* Location.m */; };
+		B6BBF06C132BEC9B00DE486C /* README in Resources */ = {isa = PBXBuildFile; fileRef = B6BBF06B132BEC9B00DE486C /* README */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		B6BBEF8F132BBA4D00DE486C /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
 		B6BBEF97132BBA5F00DE486C /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
 		B6BBEF98132BBA5F00DE486C /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		B6BBF06B132BEC9B00DE486C /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 		29B97314FDCFA39411CA2CEA /* YellowAPICocoa */ = {
 			isa = PBXGroup;
 			children = (
+				B6BBF06B132BEC9B00DE486C /* README */,
 				B6BBEF84132BBA4D00DE486C /* JSON */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -208,6 +211,7 @@
 			files = (
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				B6BBF06C132BEC9B00DE486C /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
