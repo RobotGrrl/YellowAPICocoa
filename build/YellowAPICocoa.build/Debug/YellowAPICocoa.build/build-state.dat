@@ -1,0 +1,400 @@
+TYellowAPICocoa
+v7
+r0
+t321638543.482906
+cCheck dependencies
+cProcessInfoPlistFile /Users/Frankenteddy/Documents/YellowAPICocoa/build/Debug/YellowAPICocoa.app/Contents/Info.plist YellowAPICocoa-Info.plist
+cCopyStringsFile /Users/Frankenteddy/Documents/YellowAPICocoa/build/Debug/YellowAPICocoa.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileXIB /Users/Frankenteddy/Documents/YellowAPICocoa/English.lproj/MainMenu.xib
+cProcessPCH /var/folders/cm/cmWpVQqbGf8ruOQV52t8WU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/YellowAPICocoa_Prefix-dnebjlbgbhebipgfcqpgtxipqblg/YellowAPICocoa_Prefix.pch.gch YellowAPICocoa_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/Objects-normal/i386/main.o /Users/Frankenteddy/Documents/YellowAPICocoa/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/Objects-normal/i386/YellowAPICocoaAppDelegate.o /Users/Frankenteddy/Documents/YellowAPICocoa/YellowAPICocoaAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/Objects-normal/i386/NSObject+SBJSON.o /Users/Frankenteddy/Documents/YellowAPICocoa/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/Objects-normal/i386/NSString+SBJSON.o /Users/Frankenteddy/Documents/YellowAPICocoa/JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/Objects-normal/i386/SBJsonBase.o /Users/Frankenteddy/Documents/YellowAPICocoa/JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/Objects-normal/i386/SBJsonParser.o /Users/Frankenteddy/Documents/YellowAPICocoa/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/Objects-normal/i386/SBJsonWriter.o /Users/Frankenteddy/Documents/YellowAPICocoa/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/Objects-normal/i386/Location.o /Users/Frankenteddy/Documents/YellowAPICocoa/Location.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/Frankenteddy/Documents/YellowAPICocoa/build/Debug/YellowAPICocoa.app/Contents/MacOS/YellowAPICocoa normal i386
+cTouch /Users/Frankenteddy/Documents/YellowAPICocoa/build/Debug/YellowAPICocoa.app
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004CE1AC5000000000000000EE
+t1289858128
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C23AA0400000000000013E6
+t1277405700
+s5094
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/Frankenteddy/Documents/YellowAPICocoa/English.lproj/InfoPlist.strings
+c000000004D7B825E000000000000002D
+t1299939934
+s45
+
+N/Users/Frankenteddy/Documents/YellowAPICocoa/English.lproj/MainMenu.xib
+c000000004D7B825E000000000002BBB8
+t1299939934
+s179128
+
+N/Users/Frankenteddy/Documents/YellowAPICocoa/JSON/JSON.h
+c000000004D2B12CC0000000000000AC5
+t1294668492
+s2757
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+i"NSObject+SBJSON.h"
+i"NSString+SBJSON.h"
+i<JSON/SBJsonParser.h>
+i<JSON/SBJsonWriter.h>
+i<JSON/NSObject+SBJSON.h>
+i<JSON/NSString+SBJSON.h>
+
+N/Users/Frankenteddy/Documents/YellowAPICocoa/JSON/NSObject+SBJSON.h
+c000000004D2B12CC000000000000085F
+t1294668492
+s2143
+i<Foundation/Foundation.h>
+
+N/Users/Frankenteddy/Documents/YellowAPICocoa/JSON/NSObject+SBJSON.m
+c000000004D2B12CC000000000000077D
+t1294668492
+s1917
+i"NSObject+SBJSON.h"
+i"SBJsonWriter.h"
+
+N/Users/Frankenteddy/Documents/YellowAPICocoa/JSON/NSString+SBJSON.h
+c000000004D2B12CC00000000000007F0
+t1294668492
+s2032
+i<Foundation/Foundation.h>
+
+N/Users/Frankenteddy/Documents/YellowAPICocoa/JSON/NSString+SBJSON.m
+c000000004D2B12CC000000000000075D
+t1294668492
+s1885
+i"NSString+SBJSON.h"
+i"SBJsonParser.h"
+
+N/Users/Frankenteddy/Documents/YellowAPICocoa/JSON/SBJsonBase.h
+c000000004D2B12CC0000000000000B82
+t1294668492
+s2946
+i<Foundation/Foundation.h>
+
+N/Users/Frankenteddy/Documents/YellowAPICocoa/JSON/SBJsonBase.m
+c000000004D2B12CC0000000000000AC1
+t1294668492
+s2753
+i"SBJsonBase.h"
+
+N/Users/Frankenteddy/Documents/YellowAPICocoa/JSON/SBJsonParser.h
+c000000004D2B12CC0000000000000C8F
+t1294668492
+s3215
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/Frankenteddy/Documents/YellowAPICocoa/JSON/SBJsonParser.m
+c000000004D2B12CC0000000000003B7A
+t1294668492
+s15226
+i"SBJsonParser.h"
+
+N/Users/Frankenteddy/Documents/YellowAPICocoa/JSON/SBJsonWriter.h
+c000000004D2B12CC00000000000011D9
+t1294668492
+s4569
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/Frankenteddy/Documents/YellowAPICocoa/JSON/SBJsonWriter.m
+c000000004D2B12CC000000000000206D
+t1294668492
+s8301
+i"SBJsonWriter.h"
+
+N/Users/Frankenteddy/Documents/YellowAPICocoa/Location.h
+c000000004D7B90CB0000000000000331
+t1299943627
+s817
+i<Foundation/Foundation.h>
+
+N/Users/Frankenteddy/Documents/YellowAPICocoa/Location.m
+c000000004D7B910D0000000000000187
+t1299943693
+s391
+i"Location.h"
+
+N/Users/Frankenteddy/Documents/YellowAPICocoa/YellowAPICocoaAppDelegate.h
+c000000004D7B989C0000000000000217
+t1299945628
+s535
+i<Cocoa/Cocoa.h>
+i"JSON.h"
+i"Location.h"
+
+N/Users/Frankenteddy/Documents/YellowAPICocoa/YellowAPICocoaAppDelegate.m
+c000000004D7B99030000000000000C73
+t1299945731
+s3187
+i"YellowAPICocoaAppDelegate.h"
+
+N/Users/Frankenteddy/Documents/YellowAPICocoa/YellowAPICocoa_Prefix.pch
+c000000004D7B825E000000000000009F
+t1299939934
+s159
+i<Cocoa/Cocoa.h>
+
+N/Users/Frankenteddy/Documents/YellowAPICocoa/build/Debug/YellowAPICocoa.app
+t1299945733
+s102
+
+N/Users/Frankenteddy/Documents/YellowAPICocoa/build/Debug/YellowAPICocoa.app/Contents/Info.plist
+t1299943730
+s907
+
+N/Users/Frankenteddy/Documents/YellowAPICocoa/build/Debug/YellowAPICocoa.app/Contents/MacOS/YellowAPICocoa
+t1299945733
+s49232
+
+N/Users/Frankenteddy/Documents/YellowAPICocoa/build/Debug/YellowAPICocoa.app/Contents/PkgInfo
+t1299943730
+s8
+
+N/Users/Frankenteddy/Documents/YellowAPICocoa/build/Debug/YellowAPICocoa.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1299943731
+s92
+
+N/Users/Frankenteddy/Documents/YellowAPICocoa/build/Debug/YellowAPICocoa.app/Contents/Resources/English.lproj/MainMenu.nib
+t1299943731
+s34486
+
+N/Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/Objects-normal/i386/Location.o
+t1299943737
+s12924
+
+N/Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/Objects-normal/i386/NSObject+SBJSON.o
+t1299943737
+s6772
+
+N/Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/Objects-normal/i386/NSString+SBJSON.o
+t1299943737
+s6768
+
+N/Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/Objects-normal/i386/SBJsonBase.o
+t1299943737
+s11956
+
+N/Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/Objects-normal/i386/SBJsonParser.o
+t1299943737
+s30808
+
+N/Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/Objects-normal/i386/SBJsonWriter.o
+t1299943737
+s23776
+
+N/Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/Objects-normal/i386/YellowAPICocoa.LinkFileList
+c000000004D7B91320000000000000435
+t1299943730
+s1077
+
+N/Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/Objects-normal/i386/YellowAPICocoaAppDelegate.o
+t1299945733
+s24448
+
+N/Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/Objects-normal/i386/main.o
+t1299943737
+s4868
+
+N/Users/Frankenteddy/Documents/YellowAPICocoa/main.m
+c000000004D7B825F0000000000000105
+t1299939935
+s261
+i<Cocoa/Cocoa.h>
+
+N/var/folders/cm/cmWpVQqbGf8ruOQV52t8WU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/YellowAPICocoa_Prefix-dnebjlbgbhebipgfcqpgtxipqblg/YellowAPICocoa_Prefix.pch.gch
+t1299943736
+s38369260
+
+NYellowAPICocoa-Info.plist
+c000000004D7B825E00000000000003EA
+t1299939934
+s1002
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies321638543#321638543#0(0"0(0#1#0"2482979472#0"0#
+
+CCompileC build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/Objects-normal/i386/Location.o /Users/Frankenteddy/Documents/YellowAPICocoa/Location.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321636537.609527
+e321636537.948823
+r1
+xCompileC
+xbuild/YellowAPICocoa.build/Debug/YellowAPICocoa.build/Objects-normal/i386/Location.o
+x/Users/Frankenteddy/Documents/YellowAPICocoa/Location.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/Frankenteddy/Documents/YellowAPICocoa/Location.m321636537#321636537#0(0"0(0#0#55"/Users/Frankenteddy/Documents/YellowAPICocoa/Location.m2482979472#1658"    cd /Users/Frankenteddy/Documents/YellowAPICocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/YellowAPICocoa-generated-files.hmap -I/Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/YellowAPICocoa-own-target-headers.hmap -I/Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/YellowAPICocoa-all-target-headers.hmap -iquote /Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/YellowAPICocoa-project-headers.hmap -F/Users/Frankenteddy/Documents/YellowAPICocoa/build/Debug -I/Users/Frankenteddy/Documents/YellowAPICocoa/build/Debug/include -I/Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/DerivedSources/i386 -I/Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/DerivedSources -include /var/folders/cm/cmWpVQqbGf8ruOQV52t8WU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/YellowAPICocoa_Prefix-dnebjlbgbhebipgfcqpgtxipqblg/YellowAPICocoa_Prefix.pch -c /Users/Frankenteddy/Documents/YellowAPICocoa/Location.m -o /Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/Objects-normal/i386/Location.o0#
+
+CCompileC build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/Objects-normal/i386/NSObject+SBJSON.o /Users/Frankenteddy/Documents/YellowAPICocoa/JSON/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321636536.998730
+e321636537.268389
+r1
+xCompileC
+xbuild/YellowAPICocoa.build/Debug/YellowAPICocoa.build/Objects-normal/i386/NSObject+SBJSON.o
+x/Users/Frankenteddy/Documents/YellowAPICocoa/JSON/NSObject+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/Frankenteddy/Documents/YellowAPICocoa/JSON/NSObject+SBJSON.m321636536#321636537#0(0"0(0#0#67"/Users/Frankenteddy/Documents/YellowAPICocoa/JSON/NSObject+SBJSON.m4255560#1677"    cd /Users/Frankenteddy/Documents/YellowAPICocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/YellowAPICocoa-generated-files.hmap -I/Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/YellowAPICocoa-own-target-headers.hmap -I/Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/YellowAPICocoa-all-target-headers.hmap -iquote /Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/YellowAPICocoa-project-headers.hmap -F/Users/Frankenteddy/Documents/YellowAPICocoa/build/Debug -I/Users/Frankenteddy/Documents/YellowAPICocoa/build/Debug/include -I/Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/DerivedSources/i386 -I/Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/DerivedSources -include /var/folders/cm/cmWpVQqbGf8ruOQV52t8WU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/YellowAPICocoa_Prefix-dnebjlbgbhebipgfcqpgtxipqblg/YellowAPICocoa_Prefix.pch -c /Users/Frankenteddy/Documents/YellowAPICocoa/JSON/NSObject+SBJSON.m -o /Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/Objects-normal/i386/NSObject+SBJSON.o0#
+
+CCompileC build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/Objects-normal/i386/NSString+SBJSON.o /Users/Frankenteddy/Documents/YellowAPICocoa/JSON/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321636537.030734
+e321636537.270370
+r1
+xCompileC
+xbuild/YellowAPICocoa.build/Debug/YellowAPICocoa.build/Objects-normal/i386/NSString+SBJSON.o
+x/Users/Frankenteddy/Documents/YellowAPICocoa/JSON/NSString+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/Frankenteddy/Documents/YellowAPICocoa/JSON/NSString+SBJSON.m321636537#321636537#0(0"0(0#0#67"/Users/Frankenteddy/Documents/YellowAPICocoa/JSON/NSString+SBJSON.m2482979472#1677"    cd /Users/Frankenteddy/Documents/YellowAPICocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/YellowAPICocoa-generated-files.hmap -I/Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/YellowAPICocoa-own-target-headers.hmap -I/Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/YellowAPICocoa-all-target-headers.hmap -iquote /Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/YellowAPICocoa-project-headers.hmap -F/Users/Frankenteddy/Documents/YellowAPICocoa/build/Debug -I/Users/Frankenteddy/Documents/YellowAPICocoa/build/Debug/include -I/Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/DerivedSources/i386 -I/Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/DerivedSources -include /var/folders/cm/cmWpVQqbGf8ruOQV52t8WU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/YellowAPICocoa_Prefix-dnebjlbgbhebipgfcqpgtxipqblg/YellowAPICocoa_Prefix.pch -c /Users/Frankenteddy/Documents/YellowAPICocoa/JSON/NSString+SBJSON.m -o /Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/Objects-normal/i386/NSString+SBJSON.o0#
+
+CCompileC build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/Objects-normal/i386/SBJsonBase.o /Users/Frankenteddy/Documents/YellowAPICocoa/JSON/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321636537.268551
+e321636537.527937
+r1
+xCompileC
+xbuild/YellowAPICocoa.build/Debug/YellowAPICocoa.build/Objects-normal/i386/SBJsonBase.o
+x/Users/Frankenteddy/Documents/YellowAPICocoa/JSON/SBJsonBase.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/Frankenteddy/Documents/YellowAPICocoa/JSON/SBJsonBase.m321636537#321636537#0(0"0(0#0#62"/Users/Frankenteddy/Documents/YellowAPICocoa/JSON/SBJsonBase.m2482979472#1667"    cd /Users/Frankenteddy/Documents/YellowAPICocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/YellowAPICocoa-generated-files.hmap -I/Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/YellowAPICocoa-own-target-headers.hmap -I/Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/YellowAPICocoa-all-target-headers.hmap -iquote /Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/YellowAPICocoa-project-headers.hmap -F/Users/Frankenteddy/Documents/YellowAPICocoa/build/Debug -I/Users/Frankenteddy/Documents/YellowAPICocoa/build/Debug/include -I/Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/DerivedSources/i386 -I/Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/DerivedSources -include /var/folders/cm/cmWpVQqbGf8ruOQV52t8WU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/YellowAPICocoa_Prefix-dnebjlbgbhebipgfcqpgtxipqblg/YellowAPICocoa_Prefix.pch -c /Users/Frankenteddy/Documents/YellowAPICocoa/JSON/SBJsonBase.m -o /Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/Objects-normal/i386/SBJsonBase.o0#
+
+CCompileC build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/Objects-normal/i386/SBJsonParser.o /Users/Frankenteddy/Documents/YellowAPICocoa/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321636537.270510
+e321636537.609370
+r1
+xCompileC
+xbuild/YellowAPICocoa.build/Debug/YellowAPICocoa.build/Objects-normal/i386/SBJsonParser.o
+x/Users/Frankenteddy/Documents/YellowAPICocoa/JSON/SBJsonParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/Frankenteddy/Documents/YellowAPICocoa/JSON/SBJsonParser.m321636537#321636537#0(0"0(0#0#64"/Users/Frankenteddy/Documents/YellowAPICocoa/JSON/SBJsonParser.m2482979472#1671"    cd /Users/Frankenteddy/Documents/YellowAPICocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/YellowAPICocoa-generated-files.hmap -I/Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/YellowAPICocoa-own-target-headers.hmap -I/Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/YellowAPICocoa-all-target-headers.hmap -iquote /Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/YellowAPICocoa-project-headers.hmap -F/Users/Frankenteddy/Documents/YellowAPICocoa/build/Debug -I/Users/Frankenteddy/Documents/YellowAPICocoa/build/Debug/include -I/Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/DerivedSources/i386 -I/Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/DerivedSources -include /var/folders/cm/cmWpVQqbGf8ruOQV52t8WU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/YellowAPICocoa_Prefix-dnebjlbgbhebipgfcqpgtxipqblg/YellowAPICocoa_Prefix.pch -c /Users/Frankenteddy/Documents/YellowAPICocoa/JSON/SBJsonParser.m -o /Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/Objects-normal/i386/SBJsonParser.o0#
+
+CCompileC build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/Objects-normal/i386/SBJsonWriter.o /Users/Frankenteddy/Documents/YellowAPICocoa/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321636537.528107
+e321636537.835706
+r1
+xCompileC
+xbuild/YellowAPICocoa.build/Debug/YellowAPICocoa.build/Objects-normal/i386/SBJsonWriter.o
+x/Users/Frankenteddy/Documents/YellowAPICocoa/JSON/SBJsonWriter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/Frankenteddy/Documents/YellowAPICocoa/JSON/SBJsonWriter.m321636537#321636537#0(0"0(0#0#64"/Users/Frankenteddy/Documents/YellowAPICocoa/JSON/SBJsonWriter.m2482979472#1671"    cd /Users/Frankenteddy/Documents/YellowAPICocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/YellowAPICocoa-generated-files.hmap -I/Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/YellowAPICocoa-own-target-headers.hmap -I/Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/YellowAPICocoa-all-target-headers.hmap -iquote /Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/YellowAPICocoa-project-headers.hmap -F/Users/Frankenteddy/Documents/YellowAPICocoa/build/Debug -I/Users/Frankenteddy/Documents/YellowAPICocoa/build/Debug/include -I/Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/DerivedSources/i386 -I/Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/DerivedSources -include /var/folders/cm/cmWpVQqbGf8ruOQV52t8WU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/YellowAPICocoa_Prefix-dnebjlbgbhebipgfcqpgtxipqblg/YellowAPICocoa_Prefix.pch -c /Users/Frankenteddy/Documents/YellowAPICocoa/JSON/SBJsonWriter.m -o /Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/Objects-normal/i386/SBJsonWriter.o0#
+
+CCompileC build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/Objects-normal/i386/YellowAPICocoaAppDelegate.o /Users/Frankenteddy/Documents/YellowAPICocoa/YellowAPICocoaAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321638533.473557
+e321638533.907422
+r1
+xCompileC
+xbuild/YellowAPICocoa.build/Debug/YellowAPICocoa.build/Objects-normal/i386/YellowAPICocoaAppDelegate.o
+x/Users/Frankenteddy/Documents/YellowAPICocoa/YellowAPICocoaAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/Frankenteddy/Documents/YellowAPICocoa/YellowAPICocoaAppDelegate.m321638533#321638533#0(0"0(0#0#72"/Users/Frankenteddy/Documents/YellowAPICocoa/YellowAPICocoaAppDelegate.m2482979472#1692"    cd /Users/Frankenteddy/Documents/YellowAPICocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/YellowAPICocoa-generated-files.hmap -I/Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/YellowAPICocoa-own-target-headers.hmap -I/Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/YellowAPICocoa-all-target-headers.hmap -iquote /Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/YellowAPICocoa-project-headers.hmap -F/Users/Frankenteddy/Documents/YellowAPICocoa/build/Debug -I/Users/Frankenteddy/Documents/YellowAPICocoa/build/Debug/include -I/Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/DerivedSources/i386 -I/Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/DerivedSources -include /var/folders/cm/cmWpVQqbGf8ruOQV52t8WU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/YellowAPICocoa_Prefix-dnebjlbgbhebipgfcqpgtxipqblg/YellowAPICocoa_Prefix.pch -c /Users/Frankenteddy/Documents/YellowAPICocoa/YellowAPICocoaAppDelegate.m -o /Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/Objects-normal/i386/YellowAPICocoaAppDelegate.o0#
+
+CCompileC build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/Objects-normal/i386/main.o /Users/Frankenteddy/Documents/YellowAPICocoa/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s321636536.762336
+e321636537.030580
+r1
+xCompileC
+xbuild/YellowAPICocoa.build/Debug/YellowAPICocoa.build/Objects-normal/i386/main.o
+x/Users/Frankenteddy/Documents/YellowAPICocoa/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/Frankenteddy/Documents/YellowAPICocoa/main.m321636536#321636537#0(0"0(0#0#51"/Users/Frankenteddy/Documents/YellowAPICocoa/main.m2482979472#1650"    cd /Users/Frankenteddy/Documents/YellowAPICocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/YellowAPICocoa-generated-files.hmap -I/Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/YellowAPICocoa-own-target-headers.hmap -I/Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/YellowAPICocoa-all-target-headers.hmap -iquote /Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/YellowAPICocoa-project-headers.hmap -F/Users/Frankenteddy/Documents/YellowAPICocoa/build/Debug -I/Users/Frankenteddy/Documents/YellowAPICocoa/build/Debug/include -I/Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/DerivedSources/i386 -I/Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/DerivedSources -include /var/folders/cm/cmWpVQqbGf8ruOQV52t8WU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/YellowAPICocoa_Prefix-dnebjlbgbhebipgfcqpgtxipqblg/YellowAPICocoa_Prefix.pch -c /Users/Frankenteddy/Documents/YellowAPICocoa/main.m -o /Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/Frankenteddy/Documents/YellowAPICocoa/English.lproj/MainMenu.xib
+s321636530.523841
+e321636531.470534
+r1
+xCompileXIB
+x/Users/Frankenteddy/Documents/YellowAPICocoa/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib321636530#321636531#0(0"0(0#0#71"/Users/Frankenteddy/Documents/YellowAPICocoa/English.lproj/MainMenu.xib2482979472#389"    cd /Users/Frankenteddy/Documents/YellowAPICocoa    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Frankenteddy/Documents/YellowAPICocoa/build/Debug/YellowAPICocoa.app/Contents/Resources/English.lproj/MainMenu.nib /Users/Frankenteddy/Documents/YellowAPICocoa/English.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCopyStringsFile /Users/Frankenteddy/Documents/YellowAPICocoa/build/Debug/YellowAPICocoa.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s321636530.497389
+e321636531.348903
+r1
+xCopyStringsFile
+x/Users/Frankenteddy/Documents/YellowAPICocoa/build/Debug/YellowAPICocoa.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings321636530#321636531#0(0"0(0#0#76"/Users/Frankenteddy/Documents/YellowAPICocoa/English.lproj/InfoPlist.strings4742288#384"    cd /Users/Frankenteddy/Documents/YellowAPICocoa    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/Frankenteddy/Documents/YellowAPICocoa/build/Debug/YellowAPICocoa.app/Contents/Resources/English.lproj0#
+
+CLd /Users/Frankenteddy/Documents/YellowAPICocoa/build/Debug/YellowAPICocoa.app/Contents/MacOS/YellowAPICocoa normal i386
+s321638533.907564
+e321638533.981923
+r1
+xLd
+x/Users/Frankenteddy/Documents/YellowAPICocoa/build/Debug/YellowAPICocoa.app/Contents/MacOS/YellowAPICocoa
+xnormal
+xi386
+lSLF07#2@110"Link /Users/Frankenteddy/Documents/YellowAPICocoa/build/Debug/YellowAPICocoa.app/Contents/MacOS/YellowAPICocoa321638533#321638533#0(0"0(0#0#0"2482979472#603"    cd /Users/Frankenteddy/Documents/YellowAPICocoa    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/Frankenteddy/Documents/YellowAPICocoa/build/Debug -F/Users/Frankenteddy/Documents/YellowAPICocoa/build/Debug -filelist /Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/Objects-normal/i386/YellowAPICocoa.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -o /Users/Frankenteddy/Documents/YellowAPICocoa/build/Debug/YellowAPICocoa.app/Contents/MacOS/YellowAPICocoa0#
+
+CProcessInfoPlistFile /Users/Frankenteddy/Documents/YellowAPICocoa/build/Debug/YellowAPICocoa.app/Contents/Info.plist YellowAPICocoa-Info.plist
+s321636530.453572
+e321636530.497221
+r1
+xProcessInfoPlistFile
+x/Users/Frankenteddy/Documents/YellowAPICocoa/build/Debug/YellowAPICocoa.app/Contents/Info.plist
+xYellowAPICocoa-Info.plist
+lSLF07#2@33"Process YellowAPICocoa-Info.plist321636530#321636530#0(0"0(0#0#70"/Users/Frankenteddy/Documents/YellowAPICocoa/YellowAPICocoa-Info.plist4255560#349"    cd /Users/Frankenteddy/Documents/YellowAPICocoa    builtin-infoPlistUtility YellowAPICocoa-Info.plist -genpkginfo /Users/Frankenteddy/Documents/YellowAPICocoa/build/Debug/YellowAPICocoa.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/Frankenteddy/Documents/YellowAPICocoa/build/Debug/YellowAPICocoa.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/cm/cmWpVQqbGf8ruOQV52t8WU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/YellowAPICocoa_Prefix-dnebjlbgbhebipgfcqpgtxipqblg/YellowAPICocoa_Prefix.pch.gch YellowAPICocoa_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s321636531.470767
+e321636536.762107
+r1
+xProcessPCH
+x/var/folders/cm/cmWpVQqbGf8ruOQV52t8WU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/YellowAPICocoa_Prefix-dnebjlbgbhebipgfcqpgtxipqblg/YellowAPICocoa_Prefix.pch.gch
+xYellowAPICocoa_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@36"Precompile YellowAPICocoa_Prefix.pch321636531#321636536#0(0"0(0#0#70"/Users/Frankenteddy/Documents/YellowAPICocoa/YellowAPICocoa_Prefix.pch4255560#1545"    cd /Users/Frankenteddy/Documents/YellowAPICocoa    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/YellowAPICocoa-generated-files.hmap -I/Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/YellowAPICocoa-own-target-headers.hmap -I/Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/YellowAPICocoa-all-target-headers.hmap -iquote /Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/YellowAPICocoa-project-headers.hmap -F/Users/Frankenteddy/Documents/YellowAPICocoa/build/Debug -I/Users/Frankenteddy/Documents/YellowAPICocoa/build/Debug/include -I/Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/DerivedSources/i386 -I/Users/Frankenteddy/Documents/YellowAPICocoa/build/YellowAPICocoa.build/Debug/YellowAPICocoa.build/DerivedSources -c /Users/Frankenteddy/Documents/YellowAPICocoa/YellowAPICocoa_Prefix.pch -o /var/folders/cm/cmWpVQqbGf8ruOQV52t8WU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/YellowAPICocoa_Prefix-dnebjlbgbhebipgfcqpgtxipqblg/YellowAPICocoa_Prefix.pch.gch0#
+
+CTouch /Users/Frankenteddy/Documents/YellowAPICocoa/build/Debug/YellowAPICocoa.app
+s321638533.982089
+e321638533.986278
+r1
+xTouch
+x/Users/Frankenteddy/Documents/YellowAPICocoa/build/Debug/YellowAPICocoa.app
+lSLF07#2@81"Touch /Users/Frankenteddy/Documents/YellowAPICocoa/build/Debug/YellowAPICocoa.app321638533#321638533#0(0"0(0#0#0"2482979472#150"    cd /Users/Frankenteddy/Documents/YellowAPICocoa    /usr/bin/touch -c /Users/Frankenteddy/Documents/YellowAPICocoa/build/Debug/YellowAPICocoa.app0#
+
