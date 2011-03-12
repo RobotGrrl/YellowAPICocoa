@@ -202,24 +202,24 @@
 			<key>Content</key>
 			<dict>
 				<key>PBXProjectModuleGUID</key>
-				<string>B6BBEFD5132BCA0C00DE486C</string>
+				<string>B6BBF063132BD38800DE486C</string>
 				<key>PBXProjectModuleLabel</key>
-				<string>NSString.h</string>
+				<string>YellowAPICocoaAppDelegate.m</string>
 				<key>PBXSplitModuleInNavigatorKey</key>
 				<dict>
 					<key>Split0</key>
 					<dict>
 						<key>PBXProjectModuleGUID</key>
-						<string>B6BBEFD6132BCA0C00DE486C</string>
+						<string>B6BBF064132BD38800DE486C</string>
 						<key>PBXProjectModuleLabel</key>
-						<string>NSString.h</string>
+						<string>YellowAPICocoaAppDelegate.m</string>
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>B6BBF05F132BD2A700DE486C</string>
+						<string>B6BBF067132BD38F00DE486C</string>
 						<key>history</key>
 						<array>
-							<string>B6BBEFD7132BCA0C00DE486C</string>
+							<string>B6BBF062132BD37A00DE486C</string>
 						</array>
 					</dict>
 					<key>SplitCount</key>
@@ -235,48 +235,7 @@
 				<key>PBXModuleWindowStatusBarHidden2</key>
 				<false/>
 				<key>RubberWindowFrame</key>
-				<string>153 69 921 858 0 0 1920 1058 </string>
-			</dict>
-		</dict>
-		<dict>
-			<key>Content</key>
-			<dict>
-				<key>PBXProjectModuleGUID</key>
-				<string>B6BBEFAB132BC85600DE486C</string>
-				<key>PBXProjectModuleLabel</key>
-				<string>YellowYELLRAppDelegate.m</string>
-				<key>PBXSplitModuleInNavigatorKey</key>
-				<dict>
-					<key>Split0</key>
-					<dict>
-						<key>PBXProjectModuleGUID</key>
-						<string>B6BBEFAC132BC85600DE486C</string>
-						<key>PBXProjectModuleLabel</key>
-						<string>YellowYELLRAppDelegate.m</string>
-						<key>_historyCapacity</key>
-						<integer>0</integer>
-						<key>bookmark</key>
-						<string>B6BBF060132BD2A700DE486C</string>
-						<key>history</key>
-						<array>
-							<string>B6BBEFAD132BC85600DE486C</string>
-							<string>B6BBEFAF132BC85600DE486C</string>
-						</array>
-					</dict>
-					<key>SplitCount</key>
-					<string>1</string>
-				</dict>
-				<key>StatusBarVisibility</key>
-				<true/>
-			</dict>
-			<key>Geometry</key>
-			<dict>
-				<key>Frame</key>
-				<string>{{0, 20}, {921, 817}}</string>
-				<key>PBXModuleWindowStatusBarHidden2</key>
-				<false/>
-				<key>RubberWindowFrame</key>
-				<string>30 68 921 858 0 0 1920 1058 </string>
+				<string>15 195 921 858 0 0 1920 1058 </string>
 			</dict>
 		</dict>
 		<dict>
@@ -297,7 +256,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>B6BBF061132BD2A700DE486C</string>
+						<string>B6BBF068132BD38F00DE486C</string>
 						<key>history</key>
 						<array>
 							<string>B6BBEFCD132BC91E00DE486C</string>
@@ -399,7 +358,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>4</integer>
+									<integer>6</integer>
 									<integer>2</integer>
 									<integer>0</integer>
 								</array>
@@ -765,9 +724,8 @@
 		<string>B6BBF007132BCE3000DE486C</string>
 		<string>B6BBF008132BCE3000DE486C</string>
 		<string>B6BBEFA0132BBA7500DE486C</string>
-		<string>B6BBEFAB132BC85600DE486C</string>
-		<string>B6BBEFD5132BCA0C00DE486C</string>
 		<string>/Users/Frankenteddy/Documents/YellowAPICocoa/YellowAPICocoa.xcodeproj</string>
+		<string>B6BBF063132BD38800DE486C</string>
 	</array>
 	<key>WindowString</key>
 	<string>71 547 810 487 0 0 1920 1058 </string>

@@ -11,8 +11,8 @@
 	256AC3D90F4B6AC300CF3369 /* YellowAPICocoaAppDelegate.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1594, 1209}}";
-			sepNavSelRange = "{124, 0}";
-			sepNavVisRange = "{0, 2166}";
+			sepNavSelRange = "{187, 0}";
+			sepNavVisRange = "{0, 2147}";
 			sepNavWindowFrame = "{{15, 139}, {921, 914}}";
 		};
 	};
@@ -151,6 +151,11 @@
 			B6BBF05F132BD2A700DE486C /* PBXTextBookmark */ = B6BBF05F132BD2A700DE486C /* PBXTextBookmark */;
 			B6BBF060132BD2A700DE486C /* PBXTextBookmark */ = B6BBF060132BD2A700DE486C /* PBXTextBookmark */;
 			B6BBF061132BD2A700DE486C /* PBXTextBookmark */ = B6BBF061132BD2A700DE486C /* PBXTextBookmark */;
+			B6BBF062132BD37A00DE486C /* PBXBookmark */ = B6BBF062132BD37A00DE486C /* PBXBookmark */;
+			B6BBF065132BD38800DE486C /* PBXTextBookmark */ = B6BBF065132BD38800DE486C /* PBXTextBookmark */;
+			B6BBF066132BD38800DE486C /* PBXTextBookmark */ = B6BBF066132BD38800DE486C /* PBXTextBookmark */;
+			B6BBF067132BD38F00DE486C /* PBXTextBookmark */ = B6BBF067132BD38F00DE486C /* PBXTextBookmark */;
+			B6BBF068132BD38F00DE486C /* PBXTextBookmark */ = B6BBF068132BD38F00DE486C /* PBXTextBookmark */;
 		};
 		sourceControlManager = B6BBEF81132BB9FD00DE486C /* Source Control */;
 		userBuildSettings = {
@@ -250,9 +255,16 @@
 	};
 	B6BBEFAE132BC85600DE486C /* YellowYELLRAppDelegate.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = YellowYELLRAppDelegate.h;
 		path = /Users/Frankenteddy/Dropbox/YellowYELLR/YellowYELLRAppDelegate.h;
 		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {901, 975}}";
+			sepNavSelRange = "{811, 0}";
+			sepNavVisRange = "{0, 1539}";
+			sepNavWindowFrame = "{{30, 12}, {921, 914}}";
+		};
 	};
 	B6BBEFAF132BC85600DE486C /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -289,8 +301,8 @@
 		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1405, 4966}}";
-			sepNavSelRange = "{7163, 51}";
-			sepNavVisRange = "{6774, 1928}";
+			sepNavSelRange = "{7214, 0}";
+			sepNavVisRange = "{0, 1651}";
 		};
 	};
 	B6BBEFB3132BC85600DE486C /* PBXTextBookmark */ = {
@@ -338,7 +350,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* YellowAPICocoaAppDelegate.m */;
 		name = "YellowAPICocoaAppDelegate.m: 63";
 		rLen = 0;
-		rLoc = 2822;
+		rLoc = 2803;
 		rType = 0;
 		vrLen = 2122;
 		vrLoc = 324;
@@ -348,7 +360,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* YellowAPICocoaAppDelegate.m */;
 		name = "YellowAPICocoaAppDelegate.m: 65";
 		rLen = 0;
-		rLoc = 2554;
+		rLoc = 2535;
 		rType = 0;
 		vrLen = 2097;
 		vrLoc = 550;
@@ -378,7 +390,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* YellowAPICocoaAppDelegate.m */;
 		name = "YellowAPICocoaAppDelegate.m: 65";
 		rLen = 0;
-		rLoc = 2554;
+		rLoc = 2535;
 		rType = 0;
 		vrLen = 2097;
 		vrLoc = 550;
@@ -397,7 +409,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* YellowAPICocoaAppDelegate.m */;
 		name = "YellowAPICocoaAppDelegate.m: 28";
 		rLen = 10;
-		rLoc = 754;
+		rLoc = 735;
 		rType = 0;
 		vrLen = 2228;
 		vrLoc = 157;
@@ -447,7 +459,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* YellowAPICocoaAppDelegate.m */;
 		name = "YellowAPICocoaAppDelegate.m: 30";
 		rLen = 0;
-		rLoc = 881;
+		rLoc = 862;
 		rType = 0;
 		vrLen = 2232;
 		vrLoc = 157;
@@ -478,6 +490,7 @@
 	};
 	B6BBEFDA132BCA0C00DE486C /* NSString.h */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
 		name = NSString.h;
 		path = /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Versions/C/Headers/NSString.h;
 		sourceTree = "<absolute>";
@@ -485,6 +498,7 @@
 			sepNavIntBoundsRect = "{{0, 0}, {3659, 5252}}";
 			sepNavSelRange = "{15663, 0}";
 			sepNavVisRange = "{13362, 4076}";
+			sepNavWindowFrame = "{{153, 13}, {921, 914}}";
 		};
 	};
 	B6BBEFDB132BCA0C00DE486C /* PBXTextBookmark */ = {
@@ -531,7 +545,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* YellowAPICocoaAppDelegate.m */;
 		name = "YellowAPICocoaAppDelegate.m: 71";
 		rLen = 0;
-		rLoc = 2584;
+		rLoc = 2565;
 		rType = 0;
 		vrLen = 2346;
 		vrLoc = 282;
@@ -571,7 +585,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* YellowAPICocoaAppDelegate.m */;
 		name = "YellowAPICocoaAppDelegate.m: 71";
 		rLen = 0;
-		rLoc = 2603;
+		rLoc = 2584;
 		rType = 0;
 		vrLen = 2340;
 		vrLoc = 282;
@@ -624,7 +638,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* YellowAPICocoaAppDelegate.m */;
 		name = "YellowAPICocoaAppDelegate.m: 75";
 		rLen = 0;
-		rLoc = 2784;
+		rLoc = 2765;
 		rType = 0;
 		vrLen = 2384;
 		vrLoc = 726;
@@ -674,7 +688,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* YellowAPICocoaAppDelegate.m */;
 		name = "YellowAPICocoaAppDelegate.m: 80";
 		rLen = 0;
-		rLoc = 3030;
+		rLoc = 3011;
 		rType = 0;
 		vrLen = 2387;
 		vrLoc = 726;
@@ -724,7 +738,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* YellowAPICocoaAppDelegate.m */;
 		name = "YellowAPICocoaAppDelegate.m: 80";
 		rLen = 0;
-		rLoc = 3030;
+		rLoc = 3011;
 		rType = 0;
 		vrLen = 2382;
 		vrLoc = 726;
@@ -774,7 +788,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* YellowAPICocoaAppDelegate.m */;
 		name = "YellowAPICocoaAppDelegate.m: 80";
 		rLen = 0;
-		rLoc = 3021;
+		rLoc = 3002;
 		rType = 0;
 		vrLen = 2390;
 		vrLoc = 726;
@@ -824,7 +838,7 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* YellowAPICocoaAppDelegate.m */;
 		name = "YellowAPICocoaAppDelegate.m: 80";
 		rLen = 0;
-		rLoc = 3030;
+		rLoc = 3011;
 		rType = 0;
 		vrLen = 2391;
 		vrLoc = 726;
@@ -874,9 +888,9 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* YellowAPICocoaAppDelegate.m */;
 		name = "YellowAPICocoaAppDelegate.m: 72";
 		rLen = 0;
-		rLoc = 2438;
+		rLoc = 2419;
 		rType = 0;
-		vrLen = 2429;
+		vrLen = 2426;
 		vrLoc = 726;
 	};
 	B6BBF029132BCEA900DE486C /* PBXTextBookmark */ = {
@@ -924,9 +938,9 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* YellowAPICocoaAppDelegate.m */;
 		name = "YellowAPICocoaAppDelegate.m: 68";
 		rLen = 0;
-		rLoc = 2365;
+		rLoc = 2346;
 		rType = 0;
-		vrLen = 2431;
+		vrLen = 2426;
 		vrLoc = 726;
 	};
 	B6BBF031132BCEBC00DE486C /* PBXTextBookmark */ = {
@@ -974,9 +988,9 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* YellowAPICocoaAppDelegate.m */;
 		name = "YellowAPICocoaAppDelegate.m: 70";
 		rLen = 0;
-		rLoc = 2438;
+		rLoc = 2419;
 		rType = 0;
-		vrLen = 2432;
+		vrLen = 2426;
 		vrLoc = 726;
 	};
 	B6BBF039132BCED400DE486C /* PBXTextBookmark */ = {
@@ -1024,9 +1038,9 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* YellowAPICocoaAppDelegate.m */;
 		name = "YellowAPICocoaAppDelegate.m: 87";
 		rLen = 0;
-		rLoc = 3139;
+		rLoc = 3120;
 		rType = 0;
-		vrLen = 2101;
+		vrLen = 2066;
 		vrLoc = 1086;
 	};
 	B6BBF041132BCF2E00DE486C /* PBXTextBookmark */ = {
@@ -1084,9 +1098,9 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* YellowAPICocoaAppDelegate.m */;
 		name = "YellowAPICocoaAppDelegate.m: 87";
 		rLen = 1;
-		rLoc = 3101;
+		rLoc = 3082;
 		rType = 0;
-		vrLen = 2101;
+		vrLen = 2066;
 		vrLoc = 1086;
 	};
 	B6BBF04A132BD03200DE486C /* PBXTextBookmark */ = {
@@ -1094,9 +1108,9 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* YellowAPICocoaAppDelegate.m */;
 		name = "YellowAPICocoaAppDelegate.m: 87";
 		rLen = 0;
-		rLoc = 3138;
+		rLoc = 3119;
 		rType = 0;
-		vrLen = 2101;
+		vrLen = 2066;
 		vrLoc = 1086;
 	};
 	B6BBF04B132BD03200DE486C /* PBXTextBookmark */ = {
@@ -1144,9 +1158,9 @@
 		fRef = 256AC3D90F4B6AC300CF3369 /* YellowAPICocoaAppDelegate.m */;
 		name = "YellowAPICocoaAppDelegate.m: 87";
 		rLen = 0;
-		rLoc = 3138;
+		rLoc = 3119;
 		rType = 0;
-		vrLen = 2101;
+		vrLen = 2066;
 		vrLoc = 1086;
 	};
 	B6BBF053132BD08700DE486C /* PBXTextBookmark */ = {
@@ -1210,6 +1224,50 @@
 		vrLoc = 6774;
 	};
 	B6BBF061132BD2A700DE486C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B6BBEF97132BBA5F00DE486C /* Location.h */;
+		name = "Location.h: 24";
+		rLen = 0;
+		rLoc = 365;
+		rType = 0;
+		vrLen = 782;
+		vrLoc = 0;
+	};
+	B6BBF062132BD37A00DE486C /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* YellowAPICocoaAppDelegate.m */;
+	};
+	B6BBF065132BD38800DE486C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* YellowAPICocoaAppDelegate.m */;
+		name = "YellowAPICocoaAppDelegate.m: 11";
+		rLen = 5;
+		rLoc = 182;
+		rType = 0;
+		vrLen = 2166;
+		vrLoc = 0;
+	};
+	B6BBF066132BD38800DE486C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B6BBEF97132BBA5F00DE486C /* Location.h */;
+		name = "Location.h: 24";
+		rLen = 0;
+		rLoc = 365;
+		rType = 0;
+		vrLen = 782;
+		vrLoc = 0;
+	};
+	B6BBF067132BD38F00DE486C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* YellowAPICocoaAppDelegate.m */;
+		name = "YellowAPICocoaAppDelegate.m: 11";
+		rLen = 0;
+		rLoc = 187;
+		rType = 0;
+		vrLen = 2147;
+		vrLoc = 0;
+	};
+	B6BBF068132BD38F00DE486C /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = B6BBEF97132BBA5F00DE486C /* Location.h */;
 		name = "Location.h: 24";

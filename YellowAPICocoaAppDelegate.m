@@ -8,7 +8,7 @@
 
 #import "YellowAPICocoaAppDelegate.h"
 
-#define APIKEY @"ww944532t26x6upk9yhv5qh4"
+#define APIKEY @"yours"
 #define UID @"1337"
 #define DEBUG YES
 
