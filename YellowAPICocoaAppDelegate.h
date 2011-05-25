@@ -10,16 +10,25 @@
 
 #import <Cocoa/Cocoa.h>
 #import "JSON.h"
+#import "Search.h"
 #import "Location.h"
+#import "Business.h"
+
+@class ResultsWindowController;
 
 @interface YellowAPICocoaAppDelegate : NSObject <NSApplicationDelegate> {
+    
+    // IB
     NSWindow *window;
-	NSArray *resultingLocations;
+    IBOutlet NSTextField *whatField;
+    IBOutlet NSTextField *whereField;
+    IBOutlet NSProgressIndicator *progressInd;
+    ResultsWindowController *resultsWindow;
+    
 }
 
 @property (assign) IBOutlet NSWindow *window;
 
-- (void) searchWhat:(NSString *)givenWhat andWhere:(NSString *)givenWhere;
-- (void) organizeTheData:(NSDictionary *)resultsDict;
+- (IBAction) searchPressed:(id)sender;
 
 @end

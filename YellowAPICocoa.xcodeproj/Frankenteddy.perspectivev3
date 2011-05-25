@@ -216,7 +216,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>B6BBF067132BD38F00DE486C</string>
+						<string>B6BBF074132BF10C00DE486C</string>
 						<key>history</key>
 						<array>
 							<string>B6BBF062132BD37A00DE486C</string>
@@ -256,7 +256,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>B6BBF068132BD38F00DE486C</string>
+						<string>B6BBF075132BF10C00DE486C</string>
 						<key>history</key>
 						<array>
 							<string>B6BBEFCD132BC91E00DE486C</string>
@@ -315,8 +315,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -358,8 +356,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>6</integer>
-									<integer>2</integer>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -724,8 +721,8 @@
 		<string>B6BBF007132BCE3000DE486C</string>
 		<string>B6BBF008132BCE3000DE486C</string>
 		<string>B6BBEFA0132BBA7500DE486C</string>
-		<string>/Users/Frankenteddy/Documents/YellowAPICocoa/YellowAPICocoa.xcodeproj</string>
 		<string>B6BBF063132BD38800DE486C</string>
+		<string>/Users/Frankenteddy/Documents/YellowAPICocoa/YellowAPICocoa.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>71 547 810 487 0 0 1920 1058 </string>

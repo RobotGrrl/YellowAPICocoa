@@ -37,4 +37,7 @@
 @property (nonatomic, retain) NSDictionary *address;
 @property (nonatomic, retain) NSDictionary *geoCode;
 
+- (NSString *) city;
+- (NSString *) province;
+
 @end

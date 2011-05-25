@@ -12,6 +12,10 @@
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		B60B15DA138C53CE00768D2A /* ResultsWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = B60B15D9138C53CE00768D2A /* ResultsWindowController.m */; };
+		B60B15DC138C548E00768D2A /* ResultsWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B60B15DB138C548E00768D2A /* ResultsWindow.xib */; };
+		B612D1D2138C2AF90093C985 /* Business.m in Sources */ = {isa = PBXBuildFile; fileRef = B612D1D1138C2AF90093C985 /* Business.m */; };
+		B612D1D5138C2CD70093C985 /* Search.m in Sources */ = {isa = PBXBuildFile; fileRef = B612D1D4138C2CD70093C985 /* Search.m */; };
 		B6BBEF90132BBA4D00DE486C /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BBEF87132BBA4D00DE486C /* NSObject+SBJSON.m */; };
 		B6BBEF91132BBA4D00DE486C /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BBEF89132BBA4D00DE486C /* NSString+SBJSON.m */; };
 		B6BBEF92132BBA4D00DE486C /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BBEF8B132BBA4D00DE486C /* SBJsonBase.m */; };
@@ -34,6 +38,13 @@
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		8D1107310486CEB800E47090 /* YellowAPICocoa-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "YellowAPICocoa-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* YellowAPICocoa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YellowAPICocoa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B60B15D8138C53CE00768D2A /* ResultsWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsWindowController.h; sourceTree = "<group>"; };
+		B60B15D9138C53CE00768D2A /* ResultsWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsWindowController.m; sourceTree = "<group>"; };
+		B60B15DB138C548E00768D2A /* ResultsWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResultsWindow.xib; sourceTree = "<group>"; };
+		B612D1D0138C2AF90093C985 /* Business.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Business.h; sourceTree = "<group>"; };
+		B612D1D1138C2AF90093C985 /* Business.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Business.m; sourceTree = "<group>"; };
+		B612D1D3138C2CD70093C985 /* Search.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Search.h; sourceTree = "<group>"; };
+		B612D1D4138C2CD70093C985 /* Search.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Search.m; sourceTree = "<group>"; };
 		B6BBEF85132BBA4D00DE486C /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
 		B6BBEF86132BBA4D00DE486C /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
 		B6BBEF87132BBA4D00DE486C /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
@@ -67,8 +78,15 @@
 			children = (
 				B6BBEF97132BBA5F00DE486C /* Location.h */,
 				B6BBEF98132BBA5F00DE486C /* Location.m */,
+				B612D1D3138C2CD70093C985 /* Search.h */,
+				B612D1D4138C2CD70093C985 /* Search.m */,
+				B60B15DB138C548E00768D2A /* ResultsWindow.xib */,
+				B612D1D0138C2AF90093C985 /* Business.h */,
+				B612D1D1138C2AF90093C985 /* Business.m */,
 				256AC3D80F4B6AC300CF3369 /* YellowAPICocoaAppDelegate.h */,
 				256AC3D90F4B6AC300CF3369 /* YellowAPICocoaAppDelegate.m */,
+				B60B15D8138C53CE00768D2A /* ResultsWindowController.h */,
+				B60B15D9138C53CE00768D2A /* ResultsWindowController.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -212,6 +230,7 @@
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
 				B6BBF073132BEF2200DE486C /* README.markdown in Resources */,
+				B60B15DC138C548E00768D2A /* ResultsWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +249,9 @@
 				B6BBEF93132BBA4D00DE486C /* SBJsonParser.m in Sources */,
 				B6BBEF94132BBA4D00DE486C /* SBJsonWriter.m in Sources */,
 				B6BBEF99132BBA5F00DE486C /* Location.m in Sources */,
+				B612D1D2138C2AF90093C985 /* Business.m in Sources */,
+				B612D1D5138C2CD70093C985 /* Search.m in Sources */,
+				B60B15DA138C53CE00768D2A /* ResultsWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
