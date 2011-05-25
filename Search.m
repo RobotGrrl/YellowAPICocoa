@@ -12,12 +12,18 @@
 
 #define kFindBusiness @"FindBusiness"
 #define kGetBusinessDetails @"GetBusinessDetails"
+#define kFindDealer @"FindDealer"
+#define kGetTypeAhead @"GetTypeAhead"
 
 @interface Search()
 - (NSString *)cleanString:(NSString *)s;
 - (NSArray *) searchWhat;
+- (NSArray *) organizeFindBusiness:(NSDictionary *)resultsDict;
 - (Business *) searchBusiness;
 - (Business *) organizeGetBusinessDetails:(NSDictionary *)resultsDict;
+- (NSArray *) searchDealer;
+- (NSArray *) organizeTypeAhead:(NSArray *)resultsArray;
+- (NSArray *) searchTypeAhead;
 @end
 
 @implementation Search
@@ -25,6 +31,8 @@
 @synthesize lang, fmt;
 @synthesize pg, pgLen, sflag;
 @synthesize prov, listingID;
+@synthesize pid;
+@synthesize typeAheadText, field;
 
 - (id)init
 {
@@ -42,15 +50,15 @@
         
         lang = @"en";
         fmt = @"JSON";
+        pg = 1;
+        pgLen = 10;
         
         if([s isEqualToString:kFindBusiness]) {
             
             searchType = kFindBusiness;
             
-            pg = 1;
             what = @"";
             where = @"";
-            pgLen = 10;
             sflag = @"";
             
         } else if([s isEqualToString:kGetBusinessDetails]) {
@@ -61,6 +69,17 @@
             city = @"";
             busName = @"";
             listingID = @"";
+            
+        } else if([s isEqualToString:kFindDealer]) {
+            
+            searchType = kFindDealer;
+            pid = @"";
+            
+        } else if([s isEqualToString:kGetTypeAhead]) {
+            
+            searchType = kGetTypeAhead;
+            typeAheadText = @"";
+            field = @"";
             
         }
         
@@ -90,6 +109,10 @@
         return [self searchWhat];
     } else if([searchType isEqualToString:kGetBusinessDetails]) {
         return [self searchBusiness];
+    } else if([searchType isEqualToString:kFindDealer]) {
+        return [self searchDealer];
+    } else if([searchType isEqualToString:kGetTypeAhead]) {
+        return [self searchTypeAhead];
     }
     
     return nil;
@@ -112,11 +135,12 @@
 }
 
 - (NSArray *) organizeFindBusiness:(NSDictionary *)resultsDict {
-	
+	    
 	NSArray *listings = [resultsDict objectForKey:@"listings"];
 	NSMutableArray *locations = [[NSMutableArray alloc] initWithCapacity:[listings count]];
     
-	for(int i=[listings count]-1; i>0; i--) {
+    for(int i=0; i<[listings count]; i++) {
+	//for(int i=[listings count]-1; i>0; i--) {
         
 		NSDictionary *placeObject = [listings objectAtIndex:i];
 		
@@ -134,7 +158,7 @@
 		[newLocation release];
 		
 	}
-    
+        
     return [NSArray arrayWithArray:locations];
     
 }
@@ -166,6 +190,55 @@
     newBusiness.products = [resultsDict objectForKey:@"products"];
     
     return newBusiness;
+    
+}
+
+// FindDealer
+
+- (NSArray *) organizeFindDealer:(NSDictionary *)resultsDict {
+        
+	NSArray *listings = [resultsDict objectForKey:@"listings"];
+	NSMutableArray *locations = [[NSMutableArray alloc] initWithCapacity:[listings count]];
+    
+    for(int i=0; i<[listings count]; i++) {
+	//for(int i=[listings count]-1; i>0; i--) {
+        
+		NSDictionary *placeObject = [listings objectAtIndex:i];
+		
+		Location *newLocation = [[Location alloc] init];
+		newLocation.parentId = [placeObject objectForKey:@"parentId"];
+		newLocation.isParent = [[placeObject objectForKey:@"isParent"] boolValue];
+		newLocation.distance = [placeObject objectForKey:@"distance"];
+		newLocation.content = [placeObject objectForKey:@"content"];
+		newLocation.listingID = [placeObject objectForKey:@"id"];
+		newLocation.name = [placeObject objectForKey:@"name"];
+		newLocation.address = [placeObject objectForKey:@"address"];
+		newLocation.geoCode = [placeObject objectForKey:@"geoCode"];
+		
+		[locations addObject:newLocation];
+		[newLocation release];
+		
+	}
+        
+    return [NSArray arrayWithArray:locations];
+    
+}
+
+// GetTypeAhead
+
+- (NSArray *) organizeTypeAhead:(NSArray *)resultsArray {
+    
+    NSMutableArray *types = [[NSMutableArray alloc] initWithCapacity:[resultsArray count]];
+    
+    for(int i=0; i<[resultsArray count]; i++) {
+    
+        NSDictionary *result = [resultsArray objectAtIndex:i];
+        NSString *value = [result objectForKey:@"value"];
+        [types addObject:value];
+        
+    }
+    
+    return [NSArray arrayWithArray:types];
     
 }
 
@@ -220,6 +293,58 @@
         return nil;
 	} else {
         if(resultsDict != nil) return [self organizeGetBusinessDetails:resultsDict];
+	}
+    
+    return nil;
+    
+}
+
+- (NSArray *) searchDealer {
+    NSString *url = [NSString stringWithFormat:@"%@FindDealer/?pid=%@&pg=%d&pgLen=%d&lang=%@&fmt=%@&apikey=%@&UID=%@", APIURL, pid, pg, pgLen, lang, fmt, APIKEY, UID];
+	if(DEBUG) NSLog(@"FindDealer URL: %@", url);
+	
+	SBJsonParser *parser = [[SBJsonParser alloc] init];
+	NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:url]];
+	NSData *response = [NSURLConnection sendSynchronousRequest:request returningResponse:nil error:nil];
+	NSString *json_string = [[NSString alloc] initWithData:response encoding:NSUTF8StringEncoding];
+	
+	NSError *error = nil;
+	NSDictionary *resultsDict = [parser objectWithString:json_string error:&error];
+	
+    [parser release];
+	[json_string release];
+    
+	if(error) {
+		NSString *errorStr = [error.userInfo objectForKey:@"NSLocalizedDescription"];
+		NSLog(@"Error... %@", errorStr);
+	} else {
+        if(resultsDict != nil) return [self organizeFindDealer:resultsDict];
+	}
+    
+    return nil;
+    
+}
+
+- (NSArray *) searchTypeAhead {
+    NSString *url = [NSString stringWithFormat:@"%@GetTypeAhead/?text=%@&lang=%@&field=%@&apikey=%@&UID=%@", APIURL, typeAheadText, lang, field, APIKEY, UID];
+	if(DEBUG) NSLog(@"GetTypeAhead URL: %@", url);
+	
+	SBJsonParser *parser = [[SBJsonParser alloc] init];
+	NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:url]];
+	NSData *response = [NSURLConnection sendSynchronousRequest:request returningResponse:nil error:nil];
+	NSString *json_string = [[NSString alloc] initWithData:response encoding:NSUTF8StringEncoding];
+	
+	NSError *error = nil;
+	NSArray *resultsArray = [parser objectWithString:json_string error:&error];
+	
+    [parser release];
+	[json_string release];
+    
+	if(error) {
+		NSString *errorStr = [error.userInfo objectForKey:@"NSLocalizedDescription"];
+		NSLog(@"Error... %@", errorStr);
+	} else {
+        if(resultsArray != nil) return [self organizeTypeAhead:resultsArray];
 	}
     
     return nil;

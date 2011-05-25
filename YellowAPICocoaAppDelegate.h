@@ -14,16 +14,16 @@
 #import "Location.h"
 #import "Business.h"
 
-@class ResultsWindowController;
-
-@interface YellowAPICocoaAppDelegate : NSObject <NSApplicationDelegate> {
+@interface YellowAPICocoaAppDelegate : NSObject <NSApplicationDelegate, NSTextFieldDelegate> {
     
     // IB
     NSWindow *window;
     IBOutlet NSTextField *whatField;
     IBOutlet NSTextField *whereField;
     IBOutlet NSProgressIndicator *progressInd;
-    ResultsWindowController *resultsWindow;
+    IBOutlet NSTextField *typeAheadField;
+    
+    NSString *pastInput;
     
 }
 

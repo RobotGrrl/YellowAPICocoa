@@ -18,22 +18,28 @@
 @interface Search : NSObject {
     
     // All
-    NSString *lang; // en - English (default), fr - French (N)
-    NSString *fmt; // JSON or XML (default) (N)
-
+    NSString *lang;         // (N) en (default) or fr
+    NSString *fmt;          // (N) JSON or XML (default)
+    int pg;                 // (N) Default: 1 Max: 50 Integer > 0 (FindBusiness & FindDealer)
+    int pgLen;              // (N) Default: 40 Max: 100 Integer > 0 (FindBusiness & FindDealer)
+    
     // FindBusiness
-	int pg; // Default: 1 Max: 50 Integer > 0 (N)
-	NSString *what; // (Y)
-	NSString *where; // Location name or cZ{longitude},{latitude} (Y)
-    int pgLen; // Default: 40 Max: 100 Integer > 0 (N)
-	NSString *sflag; // Search filter- bn/fto/vdo (N)
+	NSString *what;         // (Y)
+	NSString *where;        // (Y) Location name or cZ{longitude},{latitude}
+	NSString *sflag;        // (N) Search filter- bn/fto/vdo
     
     // GetBusinessDetails
-    NSString *prov; // If not available, use "Canada" (Y)
-    NSString *city; // (N)
-    NSString *busName; // Business name, normalized (Y)
-    NSString *listingID; // (Y)
-
+    NSString *prov;         // (Y) If not available, use "Canada"
+    NSString *city;         // (N)
+    NSString *busName;      // (Y) Business name, normalized
+    NSString *listingID;    // (Y)
+    
+    // FindDealer
+    NSString *pid;          // (Y) Listing ID of a parent business (you can tell if it is a parent by the isParent flag in FindBusiness)
+    
+    // GetTypeAhead
+    NSString *typeAheadText;
+    NSString *field;
     
 @private
     
@@ -62,6 +68,13 @@
 
 - (void) setBusinessName:(NSString *)b;
 - (void) setCity:(NSString *)c;
+
+// FindDealer
+@property (nonatomic, retain) NSString *pid;
+
+// GetTypeAhead
+@property (nonatomic, retain) NSString *typeAheadText;
+@property (nonatomic, retain) NSString *field;
 
 @end
 
