@@ -15,6 +15,7 @@
 @synthesize window;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
+    
     NSLog(@"Welcome!");
     [whatField setStringValue:@"robots"];
     [whereField setStringValue:@"montreal"];
@@ -51,53 +52,79 @@
     
 }
 
-#pragma mark -
-#pragma mark Window Related
-
 - (IBAction) searchPressed:(id)sender {
     
-    Search *mySearch = [[Search alloc] initWithSearch:@"FindBusiness"];
-    [mySearch setWhat:[whatField stringValue]];
-    [mySearch setWhere:[whereField stringValue]];
-    NSArray *resultingLocations = [mySearch findResults];
-    [mySearch release];
     
-    NSLog(@"Number of results: %lu", [resultingLocations count]);
+    // FindBusiness
+    Search *findBusiness = [[Search alloc] initWithSearch:@"FindBusiness"];
+    [findBusiness setWhat:[whatField stringValue]];
+    [findBusiness setWhere:[whereField stringValue]];
+    NSArray *findBusinessLocations = [findBusiness findResults];
+    NSDictionary *findBusinessSummary = findBusiness.summary;
+    [findBusiness release];
     
-    Location *l = [resultingLocations objectAtIndex:0];
-    NSLog(@"Location 0: %@", l);
+    NSLog(@"FindBusiness Summary: %@", findBusinessSummary);
+    
+    Location *l = [findBusinessLocations objectAtIndex:0];
+    NSLog(@"FindBusiness Location #0: %@", l);
     
     NSString *listing = l.listingID;
     NSString *city = [l city];
     NSString *prov = [l province];
-    NSString *name = [l name];    
+    NSString *name = [l name];
+    // ---
     
-    // We have to unconvert from UTF8 to ASCII, lolz
-    //[city dataUsingEncoding:NSASCIIStringEncoding allowLossyConversion:YES];
-    //[prov dataUsingEncoding:NSASCIIStringEncoding allowLossyConversion:YES];
-    //[name dataUsingEncoding:NSASCIIStringEncoding allowLossyConversion:YES];
     
     sleep(1);
     
-    Search *myGetBusinessDetailsSerach = [[Search alloc] initWithSearch:@"GetBusinessDetails"];
-    [myGetBusinessDetailsSerach setBusinessName:name];
-    [myGetBusinessDetailsSerach setListingID:listing];
-    [myGetBusinessDetailsSerach setCity:city];
-    [myGetBusinessDetailsSerach setProv:prov];
-    Business *b = [myGetBusinessDetailsSerach findResults];
-    [myGetBusinessDetailsSerach release];
     
-    NSLog(@"Business: %@", b);
+    // GetBusinessDetails
+    Search *getBusinessDetails = [[Search alloc] initWithSearch:@"GetBusinessDetails"];
+    [getBusinessDetails setBusinessName:name];
+    [getBusinessDetails setListingID:listing];
+    [getBusinessDetails setCity:city];
+    [getBusinessDetails setProv:prov];
+    Business *b = [getBusinessDetails findResults];
+    [getBusinessDetails release];
+    
+    NSLog(@"GetBusinessDetails Business: %@", b);
+    // ---
+    
     
     sleep(1);
     
-    Search *myFindDealerSearch = [[Search alloc] initWithSearch:@"FindDealer"];
-    [myFindDealerSearch setPid:@"6418182"];
-    NSArray *resultingDealers = [myFindDealerSearch findResults];
-    [myFindDealerSearch release];
     
-    Location *d = [resultingDealers objectAtIndex:0];
-    NSLog(@"Dealer: %@", d);
+    // FindDealer
+    Search *findDealer = [[Search alloc] initWithSearch:@"FindDealer"];
+    [findDealer setPid:@"6418182"];
+    NSArray *findDealerLocations = [findDealer findResults];
+    NSDictionary *findDealerSummary = findDealer.summary;
+    [findDealer release];
+    
+    NSLog(@"FindDealer Summary: %@", findDealerSummary);
+    
+    Location *d = [findDealerLocations objectAtIndex:0];
+    NSLog(@"FindDealer Location #0: %@", d);
+    // ---
+    
+    
+    sleep(1);
+    
+    // FindBusiness (Latitude & Longitude)
+    Search *findBusinessLL = [[Search alloc] initWithSearch:@"FindBusiness"];
+    [findBusinessLL setWhat:@"barber"];
+    [findBusinessLL setWhere:@"cZ-73.61995,45.49981"];
+    NSArray *findBusinessLLLocations = [findBusinessLL findResults];
+    NSDictionary *findBusinessLLSummary = findBusinessLL.summary;
+    [findBusinessLL release];
+    
+    NSLog(@"FindBusiness LL Summary: %@", findBusinessLLSummary);
+    
+    Location *ll = [findBusinessLLLocations objectAtIndex:0];
+    NSLog(@"FindBusiness LL Location #0: %@", ll);
+    // ---
+    
+    sleep(1);
     
 }
 

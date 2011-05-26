@@ -41,6 +41,9 @@
     NSString *typeAheadText;
     NSString *field;
     
+    // Result
+    NSDictionary *summary;
+    
 @private
     
     NSString *searchType;
@@ -75,6 +78,9 @@
 // GetTypeAhead
 @property (nonatomic, retain) NSString *typeAheadText;
 @property (nonatomic, retain) NSString *field;
+
+// Result
+@property (nonatomic, retain) NSDictionary *summary;
 
 @end
 

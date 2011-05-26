@@ -33,6 +33,7 @@
 @synthesize prov, listingID;
 @synthesize pid;
 @synthesize typeAheadText, field;
+@synthesize summary;
 
 - (id)init
 {
@@ -131,11 +132,18 @@
 
 - (void) setWhere:(NSString *)w {
     [where autorelease];
-    where = [[self cleanString:w] retain];
+    
+    if([w hasPrefix:@"cZ"]) {
+        where = w;
+    } else {
+        where = [[self cleanString:w] retain];
+    }
 }
 
 - (NSArray *) organizeFindBusiness:(NSDictionary *)resultsDict {
 	    
+    summary = [resultsDict objectForKey:@"summary"];
+    
 	NSArray *listings = [resultsDict objectForKey:@"listings"];
 	NSMutableArray *locations = [[NSMutableArray alloc] initWithCapacity:[listings count]];
     
@@ -196,6 +204,8 @@
 // FindDealer
 
 - (NSArray *) organizeFindDealer:(NSDictionary *)resultsDict {
+    
+    summary = [resultsDict objectForKey:@"summary"];
         
 	NSArray *listings = [resultsDict objectForKey:@"listings"];
 	NSMutableArray *locations = [[NSMutableArray alloc] initWithCapacity:[listings count]];
@@ -355,6 +365,15 @@
 #pragma mark Memory Management
 
 - (void) dealloc {
+    [lang release];
+    [fmt release];
+    [sflag release];
+    [prov release];
+    [listingID release];
+    [pid release];
+    [typeAheadText release];
+    [field release];
+    //if(summary != nil) [summary release]; // TODO: Fix this >_<
     [super dealloc];
 }
 
