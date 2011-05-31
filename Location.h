@@ -37,7 +37,28 @@
 @property (nonatomic, retain) NSDictionary *address;
 @property (nonatomic, retain) NSDictionary *geoCode;
 
+// Content
+- (BOOL) dspAdAvail;
+- (BOOL) dspAdInMkt;
+- (BOOL) logoAvail;
+- (BOOL) logoInMkt;
+- (BOOL) photoAvail;
+- (BOOL) photoInMkt;
+- (BOOL) profileAvail;
+- (BOOL) profileInMkt;
+- (BOOL) urlAvail;
+- (BOOL) urlInMkt;
+- (BOOL) videoAvail;
+- (BOOL) videoInMkt;
+
+// Address
+- (NSString *) street;
 - (NSString *) city;
 - (NSString *) province;
+- (NSString *) pcode;
+
+// Geocode
+- (NSString *) latitude;
+- (NSString *) longitude;
 
 @end
